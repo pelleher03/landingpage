@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+}
+
+#nav {
+    display: flex;
+}
+
+.header {
+    display: flex;
+}
