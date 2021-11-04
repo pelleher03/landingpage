@@ -3,11 +3,11 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-
+    background-color: chartreuse;
 }
 
 .header-content {
-    flex: 5;
+    flex-grow: 1;
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,8 @@ h1 {
 }
 
 .main-content {
-    flex: 4;
+    background-color: red;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,13 +42,17 @@ h1 {
 }
 
 .quote-content {
-    flex: 4;
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
 }
 
+.signup-content {
+    flex-grow: 1;
+    background-color: blueviolet;
+}
 .signup-box {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -59,7 +64,7 @@ h1 {
 }
 
 .footer {
-    flex: 1;
+    flex-grow: 1;
     background-color: #1F2937;
     padding: 16px;
     color: #F9FAF8;
