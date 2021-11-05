@@ -3,7 +3,6 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: chartreuse;
 }
 
 .navbar {
@@ -63,12 +62,36 @@ h1 {
 }
 
 .main-content {
-    background-color: red;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.content {
+    display: flex;
+    list-style: none;
+    column-gap: 16px;
+}
+
+.info-box {
+    max-width: 250px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.info-pic {
+    width: 250px;
+    height: 250px;
+    border: solid 2px #3882F6;
+    border-radius: 8px;
+}
+
+.info-text {
+    color: black;
 }
 
 .quote-content {
